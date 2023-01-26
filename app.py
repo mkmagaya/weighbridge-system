@@ -32,7 +32,7 @@ def Calculate(): #Rate conversions function
         st.success(f"Total USD = {usd_val}") #print USD value
         st.success(f"Total RAND = {rand_val}") #print RAND value
     else:
-        st.warning("The weight can only be at least be 1kg")
+        st.warning("The weight can only be at least 1kg")
 
 #Error Handling Implementation
 try:
@@ -40,7 +40,7 @@ try:
         if not re.match("^[A-Za-z]{3}[0-9]{4}$", truckno): #Truck Number Validation using regex
             st.warning("Please enter the required Truck Number format (e.g acd1117)")
             if weight < 1: #Weight verification
-                st.warning("The weight can only be at least be 1kg")
+                st.warning("The weight can only be at least 1kg")
         else:
             Calculate() #calling the calculate function
 except:
