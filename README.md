@@ -1,3 +1,4 @@
-"# weighbridge-system" 
-```to run```
-streamlit run app.py
+"# weighbridge-system"
+"# to run use"
+```streamlit run app.y```
+
