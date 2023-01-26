@@ -2,7 +2,7 @@
 import streamlit as st
 import re
 
-st.title("TSL Weighbridge System")
+st.title("Weighbridge System")
  
 # inputs
 charge = 0 #initializing charge
