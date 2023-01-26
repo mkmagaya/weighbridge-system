@@ -1,4 +1,4 @@
 "# weighbridge-system"
-"# to run use"
+"# to run on localhost use"
 ```streamlit run app.y```
 
