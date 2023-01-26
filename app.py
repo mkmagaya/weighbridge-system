@@ -6,7 +6,7 @@ st.title("Weighbridge System")
  
 # inputs
 charge = 0 #initializing charge
-truckno = st.text_input(label="Truk No:") #truck number input
+truckno = st.text_input(label="Truck No:") #truck number input
 weight = st.number_input(label="Weight:") #vehicle weight input
 # payment_type = st.radio("Payment Type:", ("RTGS", "USD", "RAND")) #Payment type radio input
 payment_used = st.selectbox("Payment Type", ("RTGS", "USD", "RAND")) #Payment type dropdown input
